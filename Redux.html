@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Redux.css">
+</head>
+
+<body>
+    <div class="container" style="position: fixed;padding: 10px; background-color: white; width: 100vw; margin: 0px;">
+        <div class="redux_nav">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/redux-icon.png"
+                alt="icon" class="nav_img" />
+            <h1 class="nav_text_icon_color">Redux</h1>
+        </div>
+        <nav style="margin-left: 30px;">
+            <ul>
+                <li>Getting Started</li>
+                <li>Tutorial</li>
+                <li>GUsage Guide</li>
+                <li><a href="https://redux.js.org/api/api-reference" target="_blank" >API</a></li>
+                <li>FAQ</li>
+                <li>Best Practices</li>
+                <li>Git Hub
+                    <img class="git_icon"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/open-external-link-icon.png" />
+                </li>
+                <li>Need Help?</li>
+                <li>
+                    <img class="light_theme"
+                        src="https://cdn.iconscout.com/icon/free/png-512/free-light-mode-icon-download-in-svg-png-gif-file-formats--bright-ui-user-interface-pack-network-communication-icons-3856596.png?f=webp&w=512"
+                        alt="light" />
+                </li>
+                <form class="nosubmit">
+                    <input class="nosubmit" type="search" placeholder="Search..." >
+                </form>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container2">
+
+        <h1 style="margin-top: 30px;padding-top: 40px;">Redux</h1>
+        <p>A JS library for predictable and maintainable global state management</p>
+        <button>Get Started</button>
+
+    </div>
+    <div class="container3">
+        <div class="bolg">
+            <img class="" src="https://cdn-icons-png.flaticon.com/512/25/25404.png" alt="Ok" />
+            <h1>Predictable</h1>
+            <p>Redux helps you write applications that<span> behave consistently </span>, run in different environments
+                (client, server, and native), and are <span>easy to test</span>.</p>
+        </div>
+        <div class="bolg">
+            <img class="" src="https://pic.onlinewebfonts.com/thumbnails/icons_424599.svg" alt="Ok" />
+            <h1>Centralized</h1>
+            <p>Centralizing your application's state and logic enables powerful capabilities like
+                <span>undo/redo, state persistence, </span>and much more.
+            </p>
+        </div>
+        <div class="bolg blog1">
+            <img style="margin-top: 80px"
+                src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTUzTBTpCIsuZW_efyBAhDTJJGHSM4MAbSAOEmnI0tzJRh6jkFG"
+                alt="Ok" />
+            <h1>Debuggable</h1>
+            <p> The Redux DevTools make it easy to
+                trace <span>when, where, why, and how your application's state changed.</span>
+                Redux's architecture lets you log changes, use<span> "time-travel
+                    debugging"</span>, and even send complete error reports to a server.</p>
+        </div>
+        <div class="bolg">
+            <img class=""
+                src="data:image/png;base64,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"
+                alt="Ok" />
+            <h1>Flexible</h1>
+            <p>Redux <span>works with any UI layer</span>, and has <span>a large ecosystem of addons </span>to fit your needs.</p>
+        </div>
+    </div>
+
+    <div class="container4">
+        <h3 style="color: black; font-size: 24px;font-weight: 600;">Other Libraries from the Redux Team</h3>
+        <div style="display: flex; justify-content: space-around;">
+            <div style="display: flex; flex-direction: column; height: 100px;width: 400px;">
+                <div style="display: flex;">
+                   <a href="https://react-redux.js.org/" style="text-decoration: none;" target="_blank"> <h1>React-Redux</h1></a>
+                   <a style="margin-top: 8px;margin-left: -10px;" href="https://react-redux.js.org/" target="_blank"> <img
+                        src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoRBQYf5MABOJKIUU7EyJ0q-EWkFKGkVeWNEt69S85AkqZ2XF_" />
+                    </a>
+                    </div>
+            
+                <p style="margin-top: -10px;">Official React bindings for Redux</p>
+            </div>
+            <div style="display: flex; flex-direction: column; width: 500;">
+                <div style="display: flex;">
+                    <a  style="text-decoration: none;" href="https://redux-toolkit.js.org/" target="_blank">
+                         <h1>Redux Toolkit</h1>
+                        </a>
+                   <a href="https://redux-toolkit.js.org/" target="_blank" style="margin-top: 8px;margin-left: -10px;"> <img
+                        src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoRBQYf5MABOJKIUU7EyJ0q-EWkFKGkVeWNEt69S85AkqZ2XF_" /></a>
+                </div>
+                <p style="margin-top: -10px;">The official, opinionated, batteries-included toolset for <br /> efficient Redux development
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <div>
+            <h1>Docs</h1>
+            <p>Getting Started</p>
+            <p>Usage Guide</p>
+            <p>Tutopal</p>
+            <p> FAQ</p>
+            <p><a href="">API Reference</a></p>
+        </div>
+        <div>
+            <h1>Community</h1>
+            <div style="display: flex; flex-direction: row;margin-top: -12px;margin-left: -0px;">
+                <p>Reactiflux Discord</p>
+                <img class="git_icon" style="margin-top: 12px; height: 14px;"
+                    src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/open-external-link-icon.png" />
+            </div>
+            <div style="display: flex; flex-direction: row;margin-top: -12px;margin-left: -0px;">
+                <p style="margin-top: -30px;">Stack Overflow</p>
+                <img class="git_icon" style="margin-top: -35px; height: 14px;"
+                    src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/open-external-link-icon.png" />
+            </div>
+            <p style="margin-top: -50px;">Feedback</p>
+        </div>
+        <div>
+            <h1>More</h1>
+            <div style="display: flex; flex-direction: row;margin-top: -12px;margin-left: -0px;">
+                <p>GitHub</p>
+                <img class="git_icon" style="margin-top: 12px; height: 14px;"
+                    src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/open-external-link-icon.png" />
+            </div>
+            <img style="height: 100px;width: 150px;margin-top: -70px;"
+                src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" />
+        </div>
+
+    </footer>
+    <div class="footer_container">
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/redux-icon.png"
+            alt="icon" class="nav_img" />
+        <p style="color: grey; font-size: 24px; margin-bottom: 30px;">Copyright © 2015–2024 Dan Abramov and the Redux
+            documentation authors.</p>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
