@@ -9,15 +9,15 @@
 </head>
 
 <body>
-    <div class="box">
-        <p id="counterValue">0</p>
+    <div class="box"> 
+        <h1 id="counterValue" style="font-size: 50px;">0</h1>
         <div class="bolg">
-            <button onclick="onDecrement()">Decrement</button>
-            <button onclick="reset()">Reset</button>
-            <button onclick="onIncrement()">Increment</button>
+            <button id="decrement" onclick="onDecrement()" style="background-color: red;">Decrement</button>
+            <button id="reset" onclick="reset()" style="background-color: grey;">Reset</button>
+            <button id="increment" onclick="onIncrement()" style="background-color: green;">Increment</button>
         </div>
     </div>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
